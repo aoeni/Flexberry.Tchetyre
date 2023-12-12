@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Код брони",
+  "name": "IISTchetyreКодБрониE",
+  "className": "КодБрониE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tchetyre-код-брони",
+      "modelProjection": "КодБрониE"
+    }
+  ]
+}

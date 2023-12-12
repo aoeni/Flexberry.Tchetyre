@@ -1,0 +1,103 @@
+﻿{
+  "name": "IISTchetyreИнфБронь",
+  "modelName": "i-i-s-tchetyre-инф-бронь",
+  "className": "ИнфБронь",
+  "nameSpace": "IIS.Tchetyre",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пассажир",
+      "relatedTo": "i-i-s-tchetyre-пассажир",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рейс",
+      "relatedTo": "i-i-s-tchetyre-рейс",
+      "inverse": "инфБронь"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ИнфБроньE",
+      "modelName": "i-i-s-tchetyre-инф-бронь",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Пассажир",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.КодБрони",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "код",
+                  "caption": "КодБрони",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "кодБрони",
+              "relatedTo": "i-i-s-tchetyre-код-брони",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.МестоНаРейс",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "место",
+                  "caption": "Место",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "местоНаРейс",
+              "relatedTo": "i-i-s-tchetyre-место-на-рейс",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Пассажир",
+          "name": "пассажир",
+          "relatedTo": "i-i-s-tchetyre-пассажир",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

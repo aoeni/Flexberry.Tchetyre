@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tchetyre-рейс-e",
+  "editForm": "i-i-s-tchetyre-рейс-e",
+  "external": false,
+  "caption": "Рейс",
+  "name": "IISTchetyreРейсL",
+  "className": "РейсL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tchetyre-рейс",
+      "modelProjection": "РейсL"
+    }
+  ]
+}

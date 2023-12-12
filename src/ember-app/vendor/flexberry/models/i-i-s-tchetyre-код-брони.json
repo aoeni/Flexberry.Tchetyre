@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISTchetyreКодБрони",
+  "modelName": "i-i-s-tchetyre-код-брони",
+  "className": "КодБрони",
+  "nameSpace": "IIS.Tchetyre",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "код",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КодБрониE",
+      "modelName": "i-i-s-tchetyre-код-брони",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КодБрониL",
+      "modelName": "i-i-s-tchetyre-код-брони",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

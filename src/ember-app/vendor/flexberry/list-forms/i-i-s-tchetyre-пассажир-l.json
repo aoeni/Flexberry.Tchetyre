@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tchetyre-пассажир-e",
+  "editForm": "i-i-s-tchetyre-пассажир-e",
+  "external": false,
+  "caption": "Пассажир",
+  "name": "IISTchetyreПассажирL",
+  "className": "ПассажирL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tchetyre-пассажир",
+      "modelProjection": "ПассажирL"
+    }
+  ]
+}

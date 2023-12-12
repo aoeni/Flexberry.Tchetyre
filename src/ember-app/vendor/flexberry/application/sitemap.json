@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Tchetyre",
+  "applicationTitle": "Tchetyre",
+  "items": [
+    {
+      "link": null,
+      "menuName": "tchetyre",
+      "caption": "Tchetyre",
+      "title": "Tchetyre",
+      "children": [
+        {
+          "link": "i-i-s-tchetyre-код-брони-l",
+          "menuName": null,
+          "caption": "Код брони",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tchetyre-место-на-рейс-l",
+          "menuName": null,
+          "caption": "Место на рейс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tchetyre-пассажир-l",
+          "menuName": null,
+          "caption": "Пассажир",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tchetyre-рейс-l",
+          "menuName": null,
+          "caption": "Рейс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tchetyre-посад-талон-l",
+          "menuName": null,
+          "caption": "Посад талон",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
