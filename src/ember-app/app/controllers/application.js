@@ -28,25 +28,25 @@ export default Controller.extend({
             link: 'i-i-s-tchetyre-код-брони-l',
             caption: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-код-брони-l.caption'),
             title: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-код-брони-l.title'),
-            icon: 'chart bar',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-tchetyre-место-на-рейс-l',
             caption: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-место-на-рейс-l.caption'),
             title: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-место-на-рейс-l.title'),
-            icon: 'briefcase',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-tchetyre-пассажир-l',
             caption: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-пассажир-l.caption'),
             title: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-пассажир-l.title'),
-            icon: 'tasks',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-tchetyre-рейс-l',
             caption: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-рейс-l.caption'),
             title: i18n.t('forms.application.sitemap.tchetyre.i-i-s-tchetyre-рейс-l.title'),
-            icon: 'chart bar',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-tchetyre-посад-талон-l',
